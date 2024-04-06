@@ -1,0 +1,30 @@
+.gameContainer {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    font-family: "permanent Marker", cursive;
+    text-align: center;
+}
+
+.cellContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    width: 225px; 
+    margin: auto;
+}
+
+.cell {
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-shadow: 0 0 0 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+    box-sizing: border-box; 
+}
+
+#restartBtn {
+    margin-top: 10px; 
+}
